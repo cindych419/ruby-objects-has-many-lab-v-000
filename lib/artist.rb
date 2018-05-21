@@ -25,7 +25,7 @@ def add_song_by_name(name)
   song.artist = self
 end
 
-binding.pry
+#binding.pry
 def song_count
   @@songs_count << @songs
   @@songs_count.count.to_i
