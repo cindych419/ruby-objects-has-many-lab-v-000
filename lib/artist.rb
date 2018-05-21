@@ -28,7 +28,7 @@ end
 #binding.pry
 def song_count
   @@song_count << @songs
-  @@song_count.count.to_i
+  @@song_count.count
 end
 
 end
