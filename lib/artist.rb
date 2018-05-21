@@ -1,9 +1,9 @@
 require "pry"
 class Artist
 
-  attr_accessor :name, :songs_count
+  attr_accessor :name, :song_count
 
-@@songs_count = []
+@@song_count = []
 
 def initialize(name)
   @name = name
@@ -27,8 +27,8 @@ end
 
 #binding.pry
 def song_count
-  @@songs_count << @songs
-  @@songs_count.count.to_i
+  @@song_count << @songs
+  @@song_count.count.to_i
 end
 
 end
